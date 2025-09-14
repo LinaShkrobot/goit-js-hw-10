@@ -1,0 +1,87 @@
+.form-container {
+  display: flex;
+  padding-top: 36px;
+  padding-left: 156px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-delay {
+  width: 360px;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.form-legend {
+  display: flex;
+  text-align: start;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form-fieldset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  gap: 48px;
+  margin-bottom: 24px;
+}
+
+.form-radio {
+  width: 20px;
+  height: 20px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.button {
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #6c8cff;
+}
+
+.iziToast {
+  font-family: 'Montserrat', sans-serif !important;
+  border-radius: 8px !important;
+  font-size: 16px !important;
+}
+
+/* .iziToast-success .iziToast-icon {
+  color: #ffffff !important;
+  fill: #fff !important;
+} */
+
+/* .iziToast .close-icon {
+  display: none;
+} */
