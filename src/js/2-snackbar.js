@@ -28,19 +28,17 @@ form.addEventListener('submit', event => {
         messageColor: '#fff',
         close: false,
         iconUrl: '/img/check-mark.svg',
-        title: 'OK',
         titleColor: '#fff',
       });
     })
     .catch(error => {
       iziToast.error({
-        message: 'Illegal operation',
+        message: `Rejected promise in ${error}ms`,
         position: 'topRight',
         backgroundColor: '#ef4040',
         messageColor: '#fff',
         close: false,
         iconUrl: '/img/cross-mark.svg',
-        title: 'Error',
         titleColor: '#fff',
       });
     });
